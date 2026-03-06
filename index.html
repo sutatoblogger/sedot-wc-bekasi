@@ -41,21 +41,24 @@
         {
           "@type": "PlumbingService",
           "@id": "https://sedot-wc-bekasi.vercel.app/",
-          "name": "Pusat Sedot WC Jawa Barat - Cabang Bekasi",
+          "name": "Jasa Sedot WC Bekasi 24 Jam",
           "image": "https://sedot-wc-bekasi.vercel.app/jasa-sedot-wc-bekasi-murah-bergaransi.webp",
-          "description": "Jasa sedot WC mampet dan septic tank penuh di Bekasi. Harga Rp 400.000 per tangki (3 Kubik), gratis selang 20 meter. Pelancar pipa mampet tanpa bongkar.",
+          "description": "Layanan spesialis jasa sedot WC dan pelancar saluran mampet 24 Jam di Bekasi tanpa tembak harga.",
           "telephone": "+6285591636942",
           "priceRange": "Rp 400.000",
-          "areaServed": {
-            "@type": "City",
-            "name": "Bekasi"
+          "address": { 
+            "@type": "PostalAddress", 
+            "addressLocality": "Kota Bekasi", 
+            "addressRegion": "Jawa Barat", 
+            "addressCountry": "ID" 
           },
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Bekasi",
-            "addressRegion": "Jawa Barat",
-            "addressCountry": "ID"
-          }
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Kota Bekasi",
+              "sameAs": "https://id.wikipedia.org/wiki/Kota_Bekasi"
+            }
+          ]
         }
       ]
     }
